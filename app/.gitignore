@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.pytest_cache/
+.coverage
+
+# Django
+db.sqlite3
+local_settings.py
+static/
+media/
+
+# Variáveis de Ambiente (Segurança)
+.env
+.env.dev
+.env.staging
+.env.prod
+
+# Docker
+.docker/
+
+# IDEs
+.vscode/
+.idea/
